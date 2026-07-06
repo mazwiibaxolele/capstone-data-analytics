@@ -1,28 +1,46 @@
-# Tech Trends & Demographics Analytics
+# Tech Trends & Demographics — Data Analytics Capstone
 
-## 📌 About
-This capstone project explores emerging and in-demand technology skills using data from the Stack Overflow Developer Survey. The project follows a complete data analytics lifecycle: from data collection via APIs and web scraping, to data wrangling, exploratory data analysis (EDA), and interactive visualization. The goal is to uncover patterns, correlations, and shifts in technology preferences among developers worldwide to support strategic decision-making in tech consulting.
+> A full data-analytics lifecycle on the **Stack Overflow Developer Survey** — from API collection and web scraping to cleaning, EDA, and an executive dashboard.
 
-## 🚀 Features
-- **Data Collection:** Utilized Python for web scraping and API interactions to gather raw data.
-- **Data Wrangling & Cleaning:** Addressed missing values, removed duplicates, and normalized data distributions across massive datasets.
-- **Exploratory Data Analysis (EDA):** Performed statistical analysis to find correlations and outliers using histograms, scatter plots, box plots, and heatmaps.
-- **Interactive Dashboards:** Created a comprehensive visual report summarizing the findings for business stakeholders.
+![Technology trends dashboard](images/dashboard-preview.png)
 
-## 🛠️ Tech Stack
-- **Languages:** Python
-- **Data Processing:** Pandas, NumPy
-- **Visualization:** Matplotlib, Seaborn, IBM Cognos Analytics / Google Looker Studio
-- **Skills Demonstrated:** Web Scraping, API Integration, Statistical Analysis, Data Storytelling
+[![Python](https://img.shields.io/badge/Python-Pandas%20%7C%20NumPy-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib%20%2F%20Seaborn-Visualisation-11557C)](https://matplotlib.org/)
 
-## 📂 Repository Structure
-- `notebooks/`: Contains all Jupyter Notebooks detailing the step-by-step data analytics lifecycle, including:
-  - Data Collection & Web Scraping
-  - Data Wrangling & Cleaning
-  - Exploratory Data Analysis
-  - Various Data Visualizations (Histograms, Scatter Plots, Pie Charts, etc.)
-- `dashboard/`: Contains the finalized dashboard export (`Stack Overflow Developer Survey 2024 – Technology Trends & Demographics Dashboard.pdf`).
+## What This Project Demonstrates
 
-## ⚙️ Setup and Usage
-1. **Explore the Notebooks:** Navigate to the `notebooks/` directory and open the `.ipynb` files to see the methodology, code, and analytical findings.
-2. **View the Dashboard:** Open the PDF in the `dashboard/` directory for a high-level summary of the insights extracted from the data.
+This is an **end-to-end** analytics project — not a single notebook, but the whole pipeline a data analyst runs in practice:
+
+| Stage | What I did |
+| --- | --- |
+| **Collect** | Pulled data via APIs and web scraping with Python |
+| **Wrangle** | Handled missing values, removed duplicates, normalised distributions across a large survey dataset |
+| **Explore** | Statistical EDA — distributions, outliers, correlations |
+| **Visualise** | Histograms, box plots, scatter/bubble plots, and a stakeholder dashboard |
+
+## The Goal
+
+Uncover shifts in **which technologies and skills developers actually use and want**, so a tech-consulting audience can make evidence-based decisions about where to invest learning and hiring.
+
+## Approach
+
+The notebooks in `notebooks/` walk through each stage in order — collection, cleaning, imputation, EDA, and a full set of visualisation techniques — ending in a summary dashboard for non-technical stakeholders.
+
+## Repository Structure
+
+```
+├── notebooks/    Step-by-step lifecycle (collection → cleaning → EDA → visualisation)
+├── dashboard/    Final dashboard export (PDF)
+└── images/       Dashboard preview
+```
+
+## Run It Yourself
+
+1. Open the `notebooks/` in order to follow the methodology and code.
+2. View the PDF in `dashboard/` (or the preview above) for the summarised findings.
+
+---
+
+**Baxolele Mazwi** — BSc Construction student at Wits & aspiring data scientist
+[Portfolio](https://mazwiibaxolele.github.io/mazwi-portfolio/) · [LinkedIn](https://linkedin.com/in/baxolele-mazwi-9b2322267)
